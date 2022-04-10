@@ -1,0 +1,1 @@
+(()=>{"use strict";class t{constructor(t,e){this.name=t,this.AU=e}}const e={get AUtoKm(){return 149587870},convert(t){return t*this.AUtoKm}};let r=[new t("Mercúrio",.39),new t("Vênus",.72),new t("Terra",1)],n="";r.forEach((t=>{let r=e.convert(t.AU);n+=`De ${t.name} para o Sol são ${Math.round(r)}km\n`})),alert(n)})();

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando o HTML pelo HTML</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <p><button onclick="addHouse()">Adicionar uma casa</button></p>
+    <div id="houses">
+        <div id="house-1">
+            <div id="number">
+                <label>Número da Casa 1: </label>
+                <input type="text" id="number-1">
+            </div>
+
+            <div id="district">
+                <label>Bairro da Casa 1: </label>
+                <input type="text" id="district-1">
+            </div>
+
+            <div id="city">
+                <label>Cidade da Casa 1: </label>
+                <input type="text" id="city-1">
+            </div>
+
+            <div id="area">
+                <label>Área da Casa 1: </label>
+                <input type="text" id="area-1">
+            </div>
+
+            <button onclick = "removerCasa(this)">Remover Casa</button>
+            <br /> <br />
+        </div>
+    </div>
+</body>
+</html>

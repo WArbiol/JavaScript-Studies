@@ -1,0 +1,1 @@
+(()=>{"use strict";const s=new class{constructor(s,e,t=[],n=[]){this.name=s,this.captain=e,this.armaments=t,this.defenses=n}}("USS Enterprise","James Kirk","Phasers","Torpedos de TNT");console.log(s)})();
